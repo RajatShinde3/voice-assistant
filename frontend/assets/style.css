@@ -1,0 +1,85 @@
+/* Apply dark glassy background */
+html, body, .stApp {
+    background: linear-gradient(135deg, #1f1c2c, #928DAB);
+    color: #ffffff;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.stApp {
+    padding: 30px;
+}
+
+/* Title styling */
+h1, h2, h3, h4 {
+    color: #ffffff;
+    text-align: center;
+}
+
+/* Tabs styling */
+[data-baseweb="tab-list"] {
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+[data-baseweb="tab"] {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    margin: 0 5px;
+    padding: 10px 20px;
+    font-weight: bold;
+    color: white;
+}
+
+[data-baseweb="tab"]:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+/* Text input / area */
+input, textarea {
+    background-color: whitesmoke !important;
+    border-radius: 10px;
+    color: black !important;
+    border: 1px solid #ffffff33;
+    padding: 10px;
+}
+
+/* Stylish Glassy Button */
+.stButton>button {
+    background: rgba(255, 255, 255, 0.15);
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 12px 28px;
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    border-radius: 12px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+/* Hover Effect */
+.stButton>button:hover {
+    background: rgba(255, 255, 255, 0.25);
+    border-color: rgba(255, 255, 255, 0.4);
+    transform: scale(1.03);
+    color: #fff;
+}
+
+
+/* Result box */
+.stAlert {
+    background: rgba(255, 255, 255, 0.1);
+    border-left: 5px solid #42a5f5;
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 10px;
+    color: white;
+}
+
+/* Text color fix */
+label, .stTextInput>label, .stTextArea>label {
+    color: #ffffff;
+    font-weight: bold;
+}

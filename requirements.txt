@@ -1,0 +1,10 @@
+# requirements.txt
+fastapi
+uvicorn
+speechrecognition
+pyttsx3
+pyaudio
+python-dotenv
+requests
+wikipedia
+secure-smtplib
